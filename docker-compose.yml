@@ -1,5 +1,5 @@
 services:
-  csv2dpv:
+  profile-gif:
     build: ./app
     image: profile-gif:0.1
     ports:
