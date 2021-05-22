@@ -1,0 +1,8 @@
+services:
+  csv2dpv:
+    build: ./app
+    image: profile-gif:0.1
+    ports:
+    - "8502:3800"
+    volumes:
+    - ./app:/code
